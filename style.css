@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span {
+  color: #2196f3;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: aliceblue;
+  width: 100%;
+  padding: 25px 215px;
+  box-sizing: border-box;
+
+  h2 {
+    font-family: Raleway;
+    margin: 0;
+    font-weight: 800;
+    display: flex;
+  }
+
+  a {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+a:hover {
+  color: #2196f3;
+  text-shadow: 5px black;
+  font-size: 19px;
+  transition: 400ms;
+}
+
+header div {
+  display: flex;
+}
+
+.header__menu {
+  gap: 93px;
+  align-items: center;
+}
+
+.menu__nav,
+.header__contact-info {
+  gap: 50px;
+}
+
+.info {
+  font-family: Roboto;
+  right: 50px;
+  display: flex;
+  justify-content: end;
+}
+
+.main-content {
+  color: white;
+  padding: 50px;
+  flex-direction: column;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f303a;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Центрування тексту по вертикалі */
+    text-align: center;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 700;
+    width: 696px;
+    height: 120px;
+  }
+
+  button {
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    justify-content: center;
+    text-align: center;
+    top: 280px;
+    left: 452px;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    background-color: #2196f3;
+  }
+}
+
+.main-content button:hover {
+  background-color: #5bb5ff;
+  width: 226px;
+  height: 60px;
+  transition: 400ms;
+}
+
+.text {
+  color: #212121;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto;
+
+  p {
+    color: #757575;
+    font-weight: 400;
+  }
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+  width: 270px;
+}
+
+.tasks {
+  padding-top: 200px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: Roboto;
+    padding-bottom: 20px;
+  }
+}
+
+.imgs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 100%;
+
+  img {
+    max-width: 30%;
+    height: auto;
+  }
+}
+
+.team {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.team h2 {
+  width: 100%;
+  font-family: Raleway;
+  font-weight: 800;
+  margin-bottom: 40px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.team img {
+  width: 270px;
+  height: 260px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0 5px 0;
+}
+
+.team p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  color: #757575;
+}
+
+.Igor,
+.olga,
+.mykola,
+.muxaylo {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+footer {
+  padding-top: 40px;
+  padding: 60px;
+  color: white;
+  background-color: #2f303a;
+
+  h2 {
+    font-family: Raleway;
+    margin: 0;
+    font-weight: 800;
+    display: flex;
+    padding-bottom: 15px;
+  }
+
+  span {
+    color: #2196f3;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+.team-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.flex-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-main button {
+  margin-top: 40px;
+}
+
+.portfolio-header {
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+  }
+
+  .portfolio-nav-bar {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px ; 
+    margin-left: 290px;
+  }
+  
+  .portfolio-nav-bar button {
+    max-width: 150px;
+    padding: 10px 20px;
+    background-color: #F5F4FA;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    margin: 0 15px;
+  }
+  
+  .portfolio-nav-bar button:hover {
+    background-color: #2196F3;
+    color: white;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+  }
+.portfolio-main-content{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+h3{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #212121;
+}
+p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+}
